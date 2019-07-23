@@ -14,10 +14,6 @@ class TransparentUI extends React.Component{
         })
     }
 
-    getRecordInfo(){
-        console.log(this.props.procState.processInfo.recordInfo)
-    }
-
     render(){
         return(
             <Container style={{ marginTop: '2em' }}>
